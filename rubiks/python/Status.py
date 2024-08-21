@@ -1,3 +1,4 @@
+
 from serialConnect import quickStatus
 from termcolor import colored
 import time 
@@ -17,6 +18,11 @@ def arduinoCheck():
     #print(f"\r{' ' * (len('Arduino Status: ') + len(initial))}", end='')  # Clear the entire line
     #print(f"\rArduino Status: {newStatus}")
 
+def numServosConnected():
+    servos = 0
+    
+
+
 def fullStatus():
     final_status = arduinoCheck()  # Call arduinoCheck to get the current status
     
@@ -30,4 +36,5 @@ def fullStatus():
     
     for line in lines:
         print(line)
+4
 

@@ -1,0 +1,5 @@
+{
+    "port": "/dev/tty.usbmodem2101",
+    "configuration": "upload_method=UploadMethod",
+    "board": "OpenCM904:OpenCM904:OpenCM904"
+}

@@ -41,7 +41,7 @@ def logo():
     )
     )
 
-#serialConnect.serialConnection() #first establishing connection
+serialConnect.serialConnection() #first establishing connection
 
 #option selection
 while True:
@@ -53,9 +53,6 @@ while True:
 
 '''
 TODO: 
-
-1. when I disconnect the arduino, the code kills itself, I think that I need
-to put an exception in serialConnect to where if the port is not available to connect, we have to start over the port searching process  
 
 2. option 1. Testing servos, research how to connect using the Arduino IDE
 
